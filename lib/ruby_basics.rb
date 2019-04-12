@@ -24,6 +24,7 @@ def last_evaluated_value
 end
 
 def pizza_party(pepperoni = "cheese")
+  puts pepperoni
   return pepperoni
 end
 
