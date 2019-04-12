@@ -29,12 +29,12 @@ end
 
 def return_a_value
   puts "Nice"
-  returns "Nice"
+  return "Nice"
 end
 
 def last_evaluated_value(phrase="expert")
   puts phrase
-  returns "expert"
+  return "expert"
 end
 
 def pizza_party(phrase="cheese")
