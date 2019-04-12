@@ -23,11 +23,6 @@ def last_evaluated_value
   return "expert"
 end
 
-def pizza_party(pepperoni = "cheese")
-  puts "#{pepperoni}"
-  return pepperoni
-end
-
 def return_a_value
   puts "Nice"
   return "Nice"
@@ -38,6 +33,7 @@ def last_evaluated_value(phrase="expert")
   return "expert"
 end
 
-def pizza_party(phrase="cheese")
-  puts phrase
+def pizza_party(pepperoni="cheese")
+  puts "pepperoni"
+  returns "pepperoni"
 end
