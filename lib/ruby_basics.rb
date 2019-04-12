@@ -1,5 +1,5 @@
 def division(num1, num2)
-  puts "#{num1}" / "#{num2}"
+  puts "#{num1} / #{num2}"
 end
 
 def assign_variable(value)
@@ -11,7 +11,7 @@ def argue (word)
 end
 
 def greeting(greeting, name)
-  puts "#{greeting} #{name}"
+  puts "#{greeting}, #{name}"
 end
 
 def return_a_value
@@ -26,5 +26,4 @@ end
 
 def pizza_party(phrase="cheese")
   puts phrase
-  returns "cheese"
 end
